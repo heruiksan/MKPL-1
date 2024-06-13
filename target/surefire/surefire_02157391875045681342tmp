@@ -1,0 +1,7 @@
+#surefire_0
+#Mon Jun 10 23:31:01 WIB 2024
+basedir=C\:\\Users\\herui\\OneDrive\\Documents\\1KULIAH\\tubes_mkpl
+localRepository=C\:\\Users\\herui\\.m2\\repository
+maven.ext.class.path=C\:\\Program Files\\NetBeans-17\\netbeans\\java\\maven-nblib\\netbeans-eventspy.jar
+test=manko_tubes.UserDataTest
+user.dir=C\:\\Users\\herui\\OneDrive\\Documents\\1KULIAH\\tubes_mkpl

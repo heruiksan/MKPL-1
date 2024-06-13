@@ -1,0 +1,32 @@
+-------------------------------------------------------------------------------
+Test set: manko_tubes.UserDataTest
+-------------------------------------------------------------------------------
+Tests run: 3, Failures: 3, Errors: 0, Skipped: 0, Time elapsed: 0.038 sec <<< FAILURE!
+manko_tubes.UserDataTest.testInvalidUserIdOrPassword()  Time elapsed: 0.003 sec  <<< FAILURE!
+java.lang.Error: Unresolved compilation problems: 
+	Type mismatch: cannot convert from AssertionError to Exception
+	Type mismatch: cannot convert from AssertionError to Exception
+
+	at manko_tubes.UserDataTest.testInvalidUserIdOrPassword(UserDataTest.java:46)
+
+manko_tubes.UserDataTest.testLoginFailure()  Time elapsed: 0.03 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: expected: <Login USER 1234 gagal, telah gagal login1 kali> but was: <Login USER 1234 gagal, telah gagal login0 kali>
+	at org.junit.jupiter.api.AssertionUtils.fail(AssertionUtils.java:55)
+	at org.junit.jupiter.api.AssertionUtils.failNotEqual(AssertionUtils.java:62)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:182)
+	at org.junit.jupiter.api.AssertEquals.assertEquals(AssertEquals.java:177)
+	at org.junit.jupiter.api.Assertions.assertEquals(Assertions.java:1141)
+	at manko_tubes.UserDataTest.testLoginFailure(UserDataTest.java:38)
+
+manko_tubes.UserDataTest.testLoginSuccess()  Time elapsed: 0.005 sec  <<< FAILURE!
+org.opentest4j.AssertionFailedError: Unexpected exception thrown: java.lang.NullPointerException: Cannot invoke "manko_tubes.UserData.login()" because "this.userData" is null
+	at org.junit.jupiter.api.AssertDoesNotThrow.createAssertionFailedError(AssertDoesNotThrow.java:83)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:54)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:37)
+	at org.junit.jupiter.api.Assertions.assertDoesNotThrow(Assertions.java:3135)
+	at manko_tubes.UserDataTest.testLoginSuccess(UserDataTest.java:29)
+Caused by: java.lang.NullPointerException: Cannot invoke "manko_tubes.UserData.login()" because "this.userData" is null
+	at manko_tubes.UserDataTest.lambda$0(UserDataTest.java:29)
+	at org.junit.jupiter.api.AssertDoesNotThrow.assertDoesNotThrow(AssertDoesNotThrow.java:50)
+	... 17 more
+
